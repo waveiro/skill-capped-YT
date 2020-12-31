@@ -1,0 +1,15 @@
+{
+  "name": "Theater mode for Skill Capped",
+  "version": "1.0",
+  "description": "Theater mode for Skill Capped (Similar to YT)",
+  "permissions": ["activeTab", "tabs", "declarativeContent"],
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["https://www.skill-capped.com/lol/course/*"],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 2
+}

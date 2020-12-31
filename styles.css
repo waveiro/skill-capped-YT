@@ -1,0 +1,72 @@
+.appContentContainer {
+  width: 100% !important;
+  margin: 0 8px !important;
+  min-width: unset !important;
+  max-width: unset !important;
+}
+
+.columnHolder {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.new-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  width: 100%;
+}
+
+.mainContent {
+  display: flex !important;
+  padding: 0 !important;
+}
+
+.sidebar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.component-CourseBar {
+  width: 100% !important;
+}
+
+.component-Course .component-LessonItem > header {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 16px 0 !important;
+  padding: 0 8px !important;
+  flex-direction: column !important;
+}
+
+.component-Course .component-LessonItem > header .titleBlock {
+  padding: 10px 0 !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+}
+
+.component-Course .component-LessonItem > header .stats {
+  display: flex !important;
+  justify-content: space-evenly !important;
+  height: 50px !important;
+  width: 100% !important;
+}
+
+.contents {
+  max-height: 90% !important;
+}
+
+.lessonItems > a > div {
+  height: 40px !important;
+}
+
+@media screen and (min-width: 768px) {
+  .community {
+    width: 65% !important;
+  }
+
+  .sidebar {
+    width: 30% !important;
+  }
+}
